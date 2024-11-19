@@ -1455,8 +1455,8 @@ vilefiend_t::vilefiend_t( warlock_t* owner )
   action_list_str += "/travel";
   action_list_str += "/headbutt";
 
-  owner_coeff.ap_from_sp = 0.538;
-  owner_coeff.sp_from_sp = 2.33;
+  owner_coeff.ap_from_sp = 0.45;
+  owner_coeff.sp_from_sp = 1.95;
 
   owner_coeff.health = 0.75;
 
