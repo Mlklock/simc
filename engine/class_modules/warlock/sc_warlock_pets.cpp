@@ -1265,7 +1265,7 @@ dreadstalker_t::dreadstalker_t( warlock_t* owner ) : warlock_pet_t( owner, "drea
   resource_regeneration  = regen_type::DISABLED;
 
   // 2023-09-20: Coefficient updated
-  owner_coeff.ap_from_sp = 0.686;
+  owner_coeff.ap_from_sp = 0.825;
 
   owner_coeff.health = 0.4;
 
@@ -1455,8 +1455,8 @@ vilefiend_t::vilefiend_t( warlock_t* owner )
   action_list_str += "/travel";
   action_list_str += "/headbutt";
 
-  owner_coeff.ap_from_sp = 0.45;
-  owner_coeff.sp_from_sp = 1.95;
+  owner_coeff.ap_from_sp = 0.538;
+  owner_coeff.sp_from_sp = 2.33;
 
   owner_coeff.health = 0.75;
 
